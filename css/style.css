@@ -9,6 +9,10 @@
 .button:hover{
     background-color: #4A4A4A;
 }
+.button:active{
+    color: dodgerblue;
+    border: 1px ridge gray;
+}
 /*intestazione*/
 header{
     width: 100vw;
@@ -31,7 +35,8 @@ header div{
     border-radius: 5px;
     margin-right: 5px;
     cursor: pointer;
-}header div p{
+}
+header div p{
     display: inline-block;
 }
 /*corpo principale*/
@@ -57,8 +62,9 @@ main{
     background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
     left: 0;
-    bottom: 0;
-    font-size: 12px;
+    bottom: 4px;
+    font-size: 11px;
+    padding: 4px;
 }
 .name p{
     display: inline-block;
@@ -96,12 +102,15 @@ footer{
     font-size: 12px;
 }
 .end{
-    color: red;
     height: 100%;
     line-height: 70px;
     font-size: 15px;
     padding: 0 30px;
+    border-radius: 8px;
     cursor: pointer;
+}
+.end p{
+    color: red;
 }
 .fa-solid.fa-share-from-square{
     color: #4BC800;

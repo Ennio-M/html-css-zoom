@@ -4,3 +4,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*intestazione*/
+header{
+    width: 100vw;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+header div{
+    color: white;
+    background-color: #4A4A4A;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}header div p{
+    display: inline-block;
+}
